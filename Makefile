@@ -4,7 +4,8 @@ SRCS := $(wildcard *.c)
 # http://www.gnu.org/software/make/manual/make.html#Substitution-Refs
 BINS := $(SRCS:%.c=bin/%)
 
-CFLAGS=-Wall -g
+CFLAGS=-Wall 
+LDLIBS=-Wl,--as-needed -lm
 
 # Tell make that the all target has every binary as a prequisite
 # and tell make that it will not create an `all` file
