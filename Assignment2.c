@@ -4,13 +4,13 @@
 
 int main () {
     
-    //Define array with 5 integers as array_to_loop
+    //Defines array called "array_to_loop" with 5 integers
     int array_to_loop[5]; 
     
-    //Define index as j
+    //Defines integer variable called "j" that will be used as for loop index
     int j;
 
-/*Define a for loop for parameters of j going from 0 to 4 (since j is an integer < 5) 
+/*Defines a for loop with index of j going from 0 to 4 (since j is an integer < 5) 
  *j goes up by 1 each time until it reaches 4
  */
     for (j = 0; j < 5; j++) {
@@ -18,7 +18,7 @@ int main () {
         //Sets value of array at index j to j+1
        array_to_loop[j] = j+1;
        
-       //Print values of array at index j, each on a new line 
+       //Prints values of "array_to_loop" at index j, each on a new line 
          printf("%d\n", array_to_loop[j] );
     }
 

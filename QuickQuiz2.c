@@ -12,13 +12,13 @@ int main() {
     //Says if the value of "Number" is under 20,
     if(Number<20) {
 
-        //Print "That's below 20!" if the corresponding condition (Number < 20) is true
+        //If the corresponding condition (Number < 20) is true, then print "That's below 20!"
         printf("That's below 20!\n");
 
     //Says if the condition above is false and "Number" is above 20,
     } else if(Number>20) {
 
-        //Print "That's above 20!" if the corresponding conditon (Number > 20) is true
+        //If the corresponding conditon (Number > 20) is true, then print "That's above 20!"
         printf("That's above 20!\n");
     
     //Says if the above conditions are false,

@@ -11,8 +11,8 @@ int main() {
     int correction=7;
 
     /*Prints: 
-     * "<number (13)> is the best number!
-     * Wait, no... <correction (7)> is!!!"
+     *"<number (13)> is the best number!
+     *Wait, no... <correction (7)> is!!!"
      */
     printf("%i is the best number!\nWait, no... %i is!!!\n", number, correction);
 
