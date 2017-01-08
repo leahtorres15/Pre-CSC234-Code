@@ -3,10 +3,14 @@
 #include <stdio.h>
 #include <math.h>
 
+//Prototypes of 2 functions called "rectangleArea" and "circleArea" 
+//Both functions' inputs are floats called "length" and "width"
 float rectangleArea(float length, float width);
 float circleArea(float length, float width);
 
+//Implementation of the main function
 int main() {
+
     float x=2;
     float y=15;
 
@@ -20,6 +24,7 @@ int main() {
     return 0;
 }
 
+//Implementation of Rectangle Area Function
 float rectangleArea(float length, float width){
     return length*width;
 }

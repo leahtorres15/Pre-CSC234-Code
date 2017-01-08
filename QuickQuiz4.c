@@ -1,4 +1,6 @@
-//Prints values of the function f(x) = x^2 +3 from x = 0 to x = 10 as coordinates (x,f(x))
+/*Prints values of the function f(x) = x^2 +3 from x = 0 to x = 10 
+ *Prints everything as coordinates (x,f(x))
+ */
 
 #include <stdio.h>
 
@@ -8,7 +10,10 @@ int funct(int x);
 //Implementation of the main function
 int main() {
     
-    //Defines a for loop with an index integer "i" from 0 to 10 that increases by 1 each time
+    /*Defines a for loop with:
+        *Index: integer "i" from 0 to 10 
+        *Increment: increases by 1 each time until hits 10
+    */
     for (int i=0; i<=10; i++) {
 
         /*The for loop runs 11 times

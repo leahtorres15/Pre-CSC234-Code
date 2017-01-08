@@ -1,4 +1,6 @@
-//Prints "13 is the best number!<New Line>Wait, no... 7 is!!!" and returns 8 if successful
+/*Prints "13 is the best number!<New Line>Wait, no... 7 is!!!" 
+ *Returns 8 if successful
+ */
 
 #include <stdio.h>
 
@@ -16,6 +18,8 @@ int main() {
      */
     printf("%i is the best number!\nWait, no... %i is!!!\n", number, correction);
 
-    //Returns 8 if successful (to get it to return 8, compile the program, run it, and type "echo $?")
+    /*Returns 8 if successful 
+     *To show it returns 8, compile the program, run it, and type "echo $?")
+     */
     return 8;
 }

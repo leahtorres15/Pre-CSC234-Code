@@ -5,9 +5,9 @@
 int main () {
 
     /*Defines a for loop with:
-     *Initial index value integer = 1
-     *Final index value an integer less than or equal to 11
-     *Increment: increasing by 2 each time*/
+        *Index: integer i from 1 to 11 (inclusive)
+        *Increment: increasing by 2 each time
+        */
     for(int i=1; i<=11; i= i+2) {
 
         //Prints the numbers in the for loop, one on each line

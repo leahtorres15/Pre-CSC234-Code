@@ -15,7 +15,9 @@ int main() {
     //Defines variable called "dif" as difference between "end" and "start"
     int dif = end-start;
 
-    //Prints "The difference between start and end is <dif>" and starts a new line
+    /*Prints "The difference between start and end is <dif>" 
+     *Starts a new line
+     */
     printf("The difference between start and end is %i\n", dif);
 
     //Returns code for operating system, if returns 0, then has succeeded

@@ -1,4 +1,6 @@
-//Prints values of an array that contains integers from 0 to 4 (one on each line) using a for loop
+/*Prints values of an array containing integers from 0 to 4 (1 on each line) 
+ *Uses a for loop
+ */
 
 #include<stdio.h>
 
@@ -10,9 +12,10 @@ int main () {
     //Defines integer variable called "j" that will be used as for loop index
     int j;
 
-/*Defines a for loop with index of j going from 0 to 4 (since j is an integer < 5) 
- *j goes up by 1 each time until it reaches 4
- */
+/*Defines a for loop with:
+    *Index: j going from 0 to 4 (since j is an integer < 5) 
+    *Increment: j goes up by 1 each time until it reaches 4
+*/
     for (j = 0; j < 5; j++) {
 
         //Sets value of array at index j to j+1
